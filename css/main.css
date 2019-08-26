@@ -1,0 +1,55 @@
+body{
+    background-color: beige;
+}
+
+/* Header */
+
+.navbar{    
+    color: white;
+    margin-bottom: 0;
+    
+    border-radius: 0px;
+    
+}
+
+/* Hero */
+ 
+
+
+
+
+#hero,#demographics,#contact{
+    text-align: center;
+} 
+ul{
+    padding-left: 0px;
+}  
+li{
+    list-style: none;
+}
+.slick-dots li button:before {
+    font-size: 30px;
+}
+
+@media screen and (min-width: 320px) {
+    .col-sm-12, .col-md-6 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+@media screen and (min-width: 768px) {
+    .video {
+        height:500px;
+    }
+}
+@media screen and (min-width: 1478px) {
+    .video {
+        height:800px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .col-sm-12, .col-md-6 {
+        padding-left: 15px;
+        
+    }
+}
